@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Nest - Strategic Proposal for Ibban.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0F172A',       /* Deep Navy Background */
+                        card: '#1E293B',       /* Lighter Card Background */
+                        gold: '#D4AF37',       /* Premium Gold */
+                        goldlight: '#FCD34D',  /* Bright Gold text */
+                        text: '#E2E8F0',       /* Soft White Text */
+                        mute: '#94A3B8'        /* Muted Text */
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0F172A; color: #E2E8F0; }
+        .gold-gradient { background: linear-gradient(135deg, #D4AF37 0%, #FCD34D 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-panel { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .check-icon { color: #D4AF37; margin-right: 0.75rem; margin-top: 0.25rem; }
+        .example-box { background: rgba(212, 175, 55, 0.1); border-left: 3px solid #D4AF37; padding: 1rem; margin-top: 1rem; font-size: 0.9rem; border-radius: 0 8px 8px 0; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-panel border-b border-slate-800/50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-yellow-600 to-yellow-400 rounded-lg flex items-center justify-center text-dark font-bold text-xl">G</div>
+                <span class="text-xl font-bold tracking-wide text-white">GROW NEST</span>
+            </div>
+            <a href="#investment" class="bg-gold text-dark px-6 py-2 rounded-full font-bold hover:bg-white transition-all shadow-lg shadow-yellow-900/20">
+                View Investment
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-40 pb-24 relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-blue-900/20 blur-[120px] -z-10"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="inline-block border border-gold/30 bg-gold/5 px-4 py-1 rounded-full text-gold text-sm font-semibold tracking-widest uppercase mb-6">
+                Proposal for Ibban.com
+            </div>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold mb-8 leading-tight">
+                Retail + Wholesale <br>
+                <span class="gold-gradient italic">Unified Experience</span>
+            </h1>
+            <p class="text-xl text-mute max-w-2xl mx-auto leading-relaxed">
+                A seamless migration from PrestaShop to Shopify, designed to capture both individual shoppers and bulk B2B buyers in the Spanish market.
+            </p>
+        </div>
+    </section>
+
+    <!-- 1. The Migration (Explained) -->
+    <section class="py-20 border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">1. Safe Migration (PrestaShop → Shopify)</h2>
+                <p class="text-mute">Moving your data without losing your hard work.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="glass-panel p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-white mb-2">What We Move</h3>
+                        <ul class="space-y-3 text-mute">
+                            <li class="flex"><i class="fa-solid fa-check check-icon"></i> Product Titles, Prices, & Descriptions</li>
+                            <li class="flex"><i class="fa-solid fa-check check-icon"></i> All Images (High Quality)</li>
+                            <li class="flex"><i class="fa-solid fa-check check-icon"></i> Variants (Sizes/Colors) & SKUs</li>
+                            <li class="flex"><i class="fa-solid fa-check check-icon"></i> SEO Meta Data (to keep Google rankings)</li>
+                        </ul>
+                    </div>
+                    <div class="example-box">
+                        <strong class="text-gold block mb-1"><i class="fa-regular fa-lightbulb mr-2"></i>Real World Example:</strong>
+                        Imagine your best-selling "Floral Dress". We don't just copy the photo. We move the dress, its 4 sizes (S, M, L, XL), its €45 price, its stock level (e.g., 50 units), and the Google description so customers can still find it.
+                    </div>
+                </div>
+                <!-- Visual representation of migration -->
+                <div class="relative h-64 md:h-80 bg-card rounded-2xl border border-white/10 flex items-center justify-center overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-purple-900/20"></div>
+                    <div class="flex items-center gap-4 text-4xl text-white/20">
+                        <i class="fa-brands fa-prestashop"></i>
+                        <i class="fa-solid fa-arrow-right text-gold animate-pulse"></i>
+                        <i class="fa-brands fa-shopify text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. B2B Engine (The App) -->
+    <section class="py-20 bg-card/30">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">2. B2B Wholesale Engine</h2>
+                <p class="text-mute">Powerful tools to manage your bulk buyers automatically.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <!-- Feature 1 -->
+                <div class="glass-panel p-8 rounded-xl hover:border-gold/50 transition-colors">
+                    <div class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center text-gold text-xl mb-6"><i class="fa-solid fa-percent"></i></div>
+                    <h3 class="font-bold text-white text-lg mb-3">Quantity Discounts</h3>
+                    <p class="text-sm text-mute mb-4">Encourage larger orders by offering tiered pricing automatically.</p>
+                    <div class="text-xs text-white/70 italic border-t border-white/10 pt-3">
+                        "Buy 10 units, get 5% off. Buy 50 units, get 15% off."
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="glass-panel p-8 rounded-xl hover:border-gold/50 transition-colors">
+                    <div class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center text-gold text-xl mb-6"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h3 class="font-bold text-white text-lg mb-3">Net Terms (Credit)</h3>
+                    <p class="text-sm text-mute mb-4">Allow trusted partners to order now and pay later.</p>
+                    <div class="text-xs text-white/70 italic border-t border-white/10 pt-3">
+                        "Store A orders €1,000 stock today, but the invoice is due in 15 days (Net 15)."
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="glass-panel p-8 rounded-xl hover:border-gold/50 transition-colors">
+                    <div class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center text-gold text-xl mb-6"><i class="fa-solid fa-ban"></i></div>
+                    <h3 class="font-bold text-white text-lg mb-3">VAT Exemption</h3>
+                    <p class="text-sm text-mute mb-4">Auto-validate EU VAT IDs for tax-free wholesale checkout.</p>
+                    <div class="text-xs text-white/70 italic border-t border-white/10 pt-3">
+                        "A registered Spanish business enters their VAT ID and 21% tax is removed instantly."
+                    </div>
+                </div>
+            </div>
+
+            <!-- App Pricing Table -->
+            <div class="glass-panel rounded-xl border border-gold/30 overflow-hidden max-w-4xl mx-auto">
+                <div class="bg-gold/10 p-4 text-center border-b border-gold/20">
+                    <h4 class="text-gold font-bold uppercase tracking-widest text-sm">Recommended B2B App Subscription (Paid to App Provider)</h4>
+                </div>
+                <div class="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/10">
+                    <!-- Basic -->
+                    <div class="p-6 text-center opacity-60">
+                        <h5 class="font-bold text-white">Essentials</h5>
+                        <p class="text-2xl font-serif my-2">€25<span class="text-sm text-mute">/mo</span></p>
+                        <ul class="text-xs text-left space-y-2 mt-4 pl-4">
+                            <li>• Basic Wholesale Tags</li>
+                            <li>• Manual Orders</li>
+                        </ul>
+                    </div>
+                    <!-- Advanced (Selected) -->
+                    <div class="p-6 text-center bg-gold/5 relative">
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 bg-gold text-dark text-[10px] font-bold px-2 py-1 rounded-b">RECOMMENDED</div>
+                        <h5 class="font-bold text-goldlight text-xl">Advanced</h5>
+                        <p class="text-3xl font-serif my-2 text-white">€50<span class="text-sm text-mute">/mo</span></p>
+                        <ul class="text-sm text-left space-y-2 mt-4 pl-4 text-white">
+                            <li>• <strong class="text-gold">VAT Exemption</strong></li>
+                            <li>• <strong class="text-gold">Net Terms (15/30)</strong></li>
+                            <li>• Custom Shipping Rates</li>
+                            <li>• Multi-Currency</li>
+                        </ul>
+                    </div>
+                    <!-- Pro -->
+                    <div class="p-6 text-center opacity-60">
+                        <h5 class="font-bold text-white">Platinum</h5>
+                        <p class="text-2xl font-serif my-2">€100<span class="text-sm text-mute">/mo</span></p>
+                        <ul class="text-xs text-left space-y-2 mt-4 pl-4">
+                            <li>• API Access</li>
+                            <li>• ERP Integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Design & Market Ready -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-3xl font-serif font-bold text-white mb-6">3. Spain-Optimized Design</h2>
+                <p class="text-mute mb-8">We don't just make it look good; we make it work for the Spanish market.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-card rounded-full flex items-center justify-center shrink-0 border border-white/10 text-gold"><i class="fa-solid fa-language"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Native Bilingual</h4>
+                            <p class="text-sm text-mute">Fully English & Spanish. Example: A customer clicks "ES" and the menu, products, and checkout switch to Spanish instantly.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-card rounded-full flex items-center justify-center shrink-0 border border-white/10 text-gold"><i class="fa-solid fa-truck"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Correos & COD</h4>
+                            <p class="text-sm text-mute">We set up Correos shipping zones and enable "Cash on Delivery" (Contra Reembolso) which is vital for Spanish buyers.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-card rounded-full flex items-center justify-center shrink-0 border border-white/10 text-gold"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <div>
+                            <h4 class="text-white font-bold">Mobile First UX</h4>
+                            <p class="text-sm text-mute">70% of traffic is mobile. We ensure buttons are thumb-friendly and images load fast on 4G.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Interactive Preview Card -->
+            <div class="glass-panel p-2 rounded-2xl border border-white/10 rotate-2 hover:rotate-0 transition-transform duration-500">
+                <div class="bg-black rounded-xl h-full overflow-hidden relative opacity-80">
+                    <!-- Mockup Content -->
+                    <div class="h-8 bg-gray-800 flex items-center px-4 gap-2">
+                        <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="p-8 flex flex-col items-center justify-center h-64 text-center">
+                        <span class="text-gold text-4xl mb-4"><i class="fa-brands fa-shopify"></i></span>
+                        <p class="text-white font-serif text-2xl">Ibban.com</p>
+                        <p class="text-xs text-gray-400 mt-2 uppercase tracking-widest">Live Preview Ready</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Investment Breakdown -->
+    <section id="investment" class="py-24 bg-gradient-to-b from-dark to-black border-t border-white/5">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-serif font-bold text-white mb-2">Investment Summary</h2>
+                <p class="text-mute">Transparent pricing with no hidden surprises.</p>
+            </div>
+
+            <div class="bg-card rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+                <!-- Header -->
+                <div class="grid grid-cols-12 bg-slate-800/50 p-4 text-sm font-bold text-white/70 border-b border-white/10 uppercase tracking-wide">
+                    <div class="col-span-8">Service Item</div>
+                    <div class="col-span-4 text-right">Cost (€)</div>
+                </div>
+
+                <!-- Item 1 -->
+                <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">Theme Customization & Branding</h4>
+                        <p class="text-sm text-mute mt-1">Mobile-first setup, colors, typography, and navigation.</p>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-white font-serif">€300</div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">Product UX & Pages</h4>
+                        <p class="text-sm text-mute mt-1">Modern layout, Size guides, Zoom, About Us, Contact, FAQ.</p>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-white font-serif">€360</div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">Functional Features (Apps)</h4>
+                        <p class="text-sm text-mute mt-1">Correos, COD, WhatsApp Chat, Newsletter Popup.</p>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-white font-serif">€220</div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">B2B Wholesale Module</h4>
+                        <p class="text-sm text-mute mt-1">Setup of VAT Exemption, Price Tiers, and Net Terms logic.</p>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-white font-serif">€370</div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">Product Migration (200 Items)</h4>
+                        <p class="text-sm text-mute mt-1">Secure transfer @ €3/product.</p>
+                        <div class="mt-2 inline-block bg-yellow-900/30 border border-yellow-600/30 rounded px-2 py-1 text-xs text-yellow-500">
+                            <i class="fa-solid fa-info-circle mr-1"></i> Note: Future manual uploads charged at <strong>€5.00 per product</strong>.
+                        </div>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-white font-serif">€600</div>
+                </div>
+                
+                 <!-- Item 6 -->
+                 <div class="grid grid-cols-12 p-6 border-b border-white/5 hover:bg-white/5 transition-colors items-center">
+                    <div class="col-span-8">
+                        <h4 class="text-white font-medium text-lg">Bilingual Setup</h4>
+                        <p class="text-sm text-mute mt-1">Complete English + Spanish configuration.</p>
+                    </div>
+                    <div class="col-span-4 text-right text-xl text-gold font-bold">Included</div>
+                </div>
+
+                <!-- Total -->
+                <div class="grid grid-cols-12 p-8 bg-gold text-dark items-center">
+                    <div class="col-span-8">
+                        <h4 class="font-bold text-2xl uppercase tracking-widest">Total Project Investment</h4>
+                    </div>
+                    <div class="col-span-4 text-right font-serif font-bold text-4xl">€1,850</div>
+                </div>
+            </div>
+
+            <!-- Add-Ons -->
+            <div class="mt-12 grid md:grid-cols-2 gap-8">
+                <div class="border border-white/10 rounded-xl p-6">
+                    <h5 class="text-white font-bold mb-4 border-b border-white/10 pb-2">Optional Add-Ons</h5>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between text-mute"><span>Logo + Brand Kit</span> <span class="text-gold">€120</span></li>
+                        <li class="flex justify-between text-mute"><span>Image Optimization</span> <span class="text-gold">€0.50 / image</span></li>
+                        <li class="flex justify-between text-mute"><span>New Market (e.g., France)</span> <span class="text-gold">€80 - €150</span></li>
+                    </ul>
+                </div>
+                <div class="border border-white/10 rounded-xl p-6">
+                    <h5 class="text-white font-bold mb-4 border-b border-white/10 pb-2">Monthly Platform Costs (Est.)</h5>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between text-mute"><span>Shopify Plan (3 months)</span> <span class="text-white">€1 / mo</span></li>
+                        <li class="flex justify-between text-mute"><span>B2B App (Recommended)</span> <span class="text-white">€50 / mo</span></li>
+                        <li class="flex justify-between text-mute"><span>Domain (if needed)</span> <span class="text-white">€15 / yr</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-mute text-sm bg-black">
+        <p class="mb-2">Timeline: Approx. 30 Working Days</p>
+        <p>&copy; 2024 Grow Nest. Prepared Exclusively for Ibban.com.</p>
+    </footer>
+
+</body>
+</html>
